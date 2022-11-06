@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Amatic';
+    src: url(Amatic_SC/AmaticSC-Regular.ttf);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Amatic";
+    background-color: black;
+}
+.nav{
+    background-image: url('./images/background.jpg');
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    animation-name: img-change;
+    animation-duration: 20s;
+    animation-iteration-count:infinite ;
+}
+
+@media screen and (max-width: 900px) {
+    .nav {
+      height:700px;
+    }
+  }
+@keyframes img-change{
+    0%   {background-image: url('./images/background.jpg');}
+    50%  {background-image: url('./images/backgyros.jpg');}
+    75% {background-image: url('./images/background.jpg');}
+    100%   {background-image: url('./images/backgyros.jpg');}
+  }
+  .nav-items img{
+    margin-left: -100px;
+  }
+.nav-items{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top:0;
+    justify-content: space-around;
+    background-color: black;
+    z-index: 10;
+    opacity: 0.8;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color:black;
+    font-size: 40px;
+    color:white;
+}
+.nav-items:hover{
+    background-color: black;
+    opacity: 1;
+}
+
+.nav-items a:hover{
+    background-color: grey;
+}
+
+.main-img{
+    width: 100%;
+    height:600px;
+    text-align: center;
+    color:white;
+    font-size:60px;
+}
+.main-img img{
+    position: relative;
+    top:10%;
+}
+
+.main-img p{
+    position: relative;
+    top:10%;
+    margin-bottom: 20px;
+}
+ 
+.btn{ 
+    text-decoration: none;
+    font-family: "Amatic";
+    padding: 10px 30px;
+    position: relative;
+    top:5%;
+    font-size: 30px;
+    background-color: black;
+    cursor: pointer;
+}
+.main-img a{
+    text-decoration: none;
+    color: white;
+}
+
+.container-menu{
+    width: 60%;
+    height:1000px;
+    background-color: white;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.title-m{
+    text-align: center;
+    color:black;
+    position: relative;
+    top:5%;
+    font-size: 20px;
+}
+.selection{
+    display:flex;
+    position: relative;
+    top:8%;
+    justify-content: space-around;
+}
+.choices{
+    font-family: "Amatic";
+    font-size: 30px;
+    padding: 12px 20px;
+    border: 1px solid white;
+    color:white;
+    background-color:black;
+}
+.choices:hover{
+    background-color:red;
+}
+#menu-items{
+    position: relative;
+    top:15%;
+}
+.meat{
+    display: flex;
+    width:60%;
+    margin-left: 20%;
+    justify-content: space-between;
+    
+}
+.meat-special{ display: flex;
+    width:60%;
+    top:15%;
+    margin-left: 20%;
+    justify-content: space-between;
+    background-color: rgb(241, 241, 163);
+}
+.meat.meat h1{
+    text-decoration: underline;
+}
+.fade{
+    width: 100%;
+    background: linear-gradient(black, rgb(107, 48, 48));
+}
+.about{
+    margin-top: 100px;
+    width: 100%;
+    height:1500px;
+    background-color: rgb(107, 48, 48);
+    position: relative;
+    font-size:30px;
+}
+
+.about h1{
+    text-align: center;
+    position: inherit;
+    top:90px;
+}
+.about p{
+    text-align: center;
+    position: inherit;
+    top:200px;
+}
+.flex-img{
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly; 
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+.img-con{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:20%;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.about p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.fill img{
+    width:100%;
+    height:700px;
+
+}
+@media screen and (max-width:600px){
+    .fill {
+        position: relative;
+        margin-top: 50px;
+        background-color: rgb(90, 57, 57);
+}}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    height:400px;
+    background-color: rgb(48, 63, 46);
+}
+
+@media screen and (max-width:600px) {
+    .contact{
+        flex-direction: column;
+        height: 800px;
+    }
+}
+.social{
+    text-align: center;
+}
+.social h2{
+    margin-top: 120px;
+    margin-bottom: 40px;
+    
+}
+.social a{
+    cursor: pointer;    
+}
+.contact p{
+    text-align: center;
+    position: relative;
+    top:18%;
+    color:white;
+    font-size: 30px;
+}
+.ContactForm{
+    width: 80%;
+    margin-left: 10%;
+    margin-top:80px;
+}
+.ContactForm h3{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-family: 'Amatic';
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff0000;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #424242;
+    padding: 20px;
+  }
+  label {
+    color:white;
+    font-size: 30px;
+  }
+
+.footer{
+    background-color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#scrollBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(255, 255, 255); /* Set a background color */
+    color: rgb(255, 0, 0); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 18px; /* Some padding */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+  }
+  
+  #scrollBtn:hover {
+    background-color: #556; /* Add a dark-grey background on hover */
+  }
