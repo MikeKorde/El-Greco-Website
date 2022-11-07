@@ -215,7 +215,7 @@ function buildDr(){
             <div><h2>0,50€</h2><br><br></div>
         </div>
         <div class="meat">
-            <div><h1>AlcoholicDrinks</h1></div>
+            <div><h1>Alcoholic Drinks</h1></div>
             <div><h1>Price</h1><br></div>
         </div>
         <div class="meat">
