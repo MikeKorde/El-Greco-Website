@@ -108,7 +108,7 @@ body{
 }
 .main-img img{
     position: relative;
-    top:10%;
+    top:12%;
 }
 
 .main-img p{
@@ -153,6 +153,7 @@ body{
     font-size: 20px;
 }
 .selection{
+    width: 100%;
     display:flex;
     position: relative;
     top:8%;

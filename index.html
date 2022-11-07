@@ -70,35 +70,43 @@
             </div>
             <div class="meat">
                 <div><h2>Gyros (Pork)</h2></div>
-                <div><h2>3,20€</h2><br></div>
+                <div><h2>3,90€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Souvlaki Chicken</h2></div>
-                <div><h2>3,00€</h2><br></div>
+                <div><h2>3,50€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Souvlaki Pork</h2></div>
-                <div><h2>2,90€</h2><br></div>
+                <div><h2>3,40€</h2><br></div>
             </div>
             <div class="meat-special">
                 <div><h2>Kontodouvli Pork</h2></div>
-                <div><h2>3,40€</h2><br></div>
+                <div><h2>4,00€</h2><br></div>
             </div>
             <div class="meat-special">
                 <div><h2>Kontosouvli Chicken</h2></div>
-                <div><h2>3,40€</h2><br></div>
+                <div><h2>4,00€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Sish Kebab</h2></div>
+                <div><h2>Seash Kebab</h2></div>
+                <div><h2>3,20€</h2><br></div>
+            </div>
+            <div class="meat">
+                <div><h2>Sausage</h2></div>
                 <div><h2>2,90€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>sausage</h2></div>
-                <div><h2>2,80€</h2><br></div>
+                <div><h2>Meatball Handmade</h2></div>
+                <div><h2>3,40€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Meatball Handmade</h2></div>
-                <div><h2>3,20€</h2><br><br><br></div>
+                <div><h2>Meatball Stuffed with Chesse</h2></div>
+                <div><h2>3,20€</h2><br></div>
+            </div>
+            <div class="meat">
+                <div><h2>Pita with Potatoes</h2></div>
+                <div><h2>2,80€</h2><br><br></div>
             </div>
 
             <div class="meat">
@@ -106,7 +114,10 @@
                 <div><h3>0,30€</h3><br></div>
             </div>
             <div class="meat">
-                <div><h3>Ingedients: Meat of your choice, Tomato, Onion, Ketchup, Mustard and French fries</h3></div>
+                <div><h3>Ingedients: Meat of your choice, Tomato, Onion, Ketchup, Mustard and French fries.</h3><br></div>
+            </div>
+            <div class="meat">
+                <div><h4>All meat are frozen.</h3></div>
             </div>
         </div>
     </div>
@@ -141,23 +152,25 @@
             </div>
             <div class="social">
                 <h2> Social Media</h2>
-                <a class="inst" href="https://www.facebook.com/ElGrecogerakini"><img src="images/insta-logo.png" alt="insta-logo" width="80" height="80"></a>
-                <a href=""><img src="images/fb-logo.png" alt="facebook-logo" width="80" height="80"></a>
+                <a class="inst" href=""><img src="images/insta-logo.png" alt="insta-logo" width="80" height="80"></a>
+                <a href="https://www.facebook.com/ElGrecogerakini"><img src="images/fb-logo.png" alt="facebook-logo" width="80" height="80"></a>
                 <a href="https://www.tripadvisor.com.gr/Restaurant_Review-g651973-d12853777-Reviews-El_Greco-Gerakini_Halkidiki_Region_Central_Macedonia.html"><img src="images/trip-logo.png" alt="" width="80" height="80"></a>
             </div>
         </div>
         <div class="ContactForm" id="con">
             <h3>Contact Form</h3>
             <div class="container">
-            <form action="/action_page.php">
+                <form action="https://formspree.io/f/moqbyqda" method="POST">
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                <label for="country">E-mail</label>
-                <input type="text" id="e-mail" name="e-mail" placeholder="Your e-mail..">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <label for="country">E-mail Adress</label>
+                <input type="text" id="e-mail" name="e-mail" placeholder="Your e-mail .." required>
                 <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Write your subject.." ></textarea>
+                <label for="message">Message</label>
+                <textarea id="message" name="Message" placeholder="Write something.." style="height:200px" required></textarea>
                 <input type="submit" value="Submit">
             </form>
             </div>
