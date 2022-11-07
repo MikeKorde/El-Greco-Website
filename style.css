@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Amatic';
-    src: url(Amatic_SC/AmaticSC-Regular.ttf);
+    src: url(font/AmaticSC-Regular.ttf);
 }
 *{
     margin:0;
@@ -24,6 +24,7 @@ body{
     .nav {
       height:700px;
     }
+   
   }
 @keyframes img-change{
     0%   {background-image: url('./images/background.jpg');}
@@ -31,9 +32,23 @@ body{
     75% {background-image: url('./images/background.jpg');}
     100%   {background-image: url('./images/backgyros.jpg');}
   }
-  .nav-items img{
-    margin-left: -100px;
+  @media screen and (max-width: 600px){
+  #item{
+    display:none;
+}
+    #NavBut{
+        display:inline-flex;
+        margin-top: 15px;
+    }
   }
+@media (min-width:600px){
+    #NavBut{
+        display: none;
+    }
+    #hdnav a{
+        display: none;
+    }
+}
 .nav-items{
     display: flex;
     position: fixed;
@@ -42,21 +57,45 @@ body{
     justify-content: space-around;
     background-color: black;
     z-index: 10;
-    opacity: 0.8;
 }
+.nav-items img{
+    margin-top: 5px;
+}
+
 
 .nav-items a{
     text-decoration: none;
-    color:black;
     font-size: 40px;
     color:white;
 }
 .nav-items:hover{
     background-color: black;
-    opacity: 1;
+
 }
 
-.nav-items a:hover{
+.nav-items a:hover:not(.log){
+    background-color: grey;
+}
+#hdnav{
+    position: fixed;
+    width: 100%;
+    display:none;
+    text-align: center;
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    top:60px;
+    z-index:10;
+}
+#hdnav>div{
+    margin-bottom:12px;
+}
+#hdnav a{
+    text-decoration: none;
+    color:white;
+}
+
+#hdnav a:hover{
     background-color: grey;
 }
 
@@ -99,6 +138,12 @@ body{
     background-color: white;
     margin-left: 20%;
     margin-top: 100px;
+}
+@media (max-width:600px) {
+    .container-menu{
+        width: 100%;
+        margin-left: 0;
+    }
 }
 .title-m{
     text-align: center;
@@ -295,13 +340,13 @@ input[type=text], select, textarea {
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: rgb(255, 255, 255); /* Set a background color */
-    color: rgb(255, 0, 0); /* Text color */
+    color: rgb(0, 0, 0); /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 18px; /* Some padding */
+    padding: 10px; /* Some padding */
     border-radius: 8px; /* Rounded corners */
-    font-size: 20px; /* Increase font size */
+    font-size: 30px; /* Increase font size */
   }
   
   #scrollBtn:hover {
-    background-color: #556; /* Add a dark-grey background on hover */
+    background-color: red; /* Add a dark-grey background on hover */
   }

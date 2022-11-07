@@ -251,7 +251,25 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  document.documentElement.style.scrollBehavior = "smooth";
+    document.documentElement.style.scrollBehavior = "smooth";
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+var  flag=0;
+$(document).ready(function(){
+    $("#NavBut").click(function(){ 
+      if(flag==0){
+        $("#hdnav").slideDown("slow");
+        console.log("Down");
+        flag=1;
+      }
+      else{
+        $("#hdnav").slideUp("slow");
+        console.log("UP");
+        flag=0;
+      }
+      
+    
+    });
+    
+  });
