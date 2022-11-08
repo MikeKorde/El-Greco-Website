@@ -144,6 +144,9 @@ body{
         width: 100%;
         margin-left: 0;
     }
+    .meat>div{
+        font-size: 14px;
+    }
 }
 .title-m{
     text-align: center;
