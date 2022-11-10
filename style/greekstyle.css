@@ -13,7 +13,7 @@ body{
 }
 .nav{
     background-image: url('../images/El-Greco-Outside.jpg');
-    background-size: 100% 600px;
+    background-size: 100% 450px;
     background-repeat: no-repeat;
     animation-name: img-change;
     animation-duration: 20s;
@@ -218,7 +218,7 @@ body{
 }
 @media(max-width:600px){
     .about{
-        height:4100px;
+        height:4000px;
     }
     .flex-img img{
         width:100px;
