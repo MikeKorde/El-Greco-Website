@@ -13,7 +13,7 @@ body{
 }
 .nav{
     background-image: url('../images/El-Greco-Outside.jpg');
-    background-size: 100% 450px;
+    background-size: 100% 600px;
     background-repeat: no-repeat;
     animation-name: img-change;
     animation-duration: 20s;
@@ -23,6 +23,7 @@ body{
 @media screen and (max-width: 900px) {
     .nav {
       height:700px;
+      background-size: 100% 430px;
     }
    
   }
@@ -231,13 +232,17 @@ body{
     width: 100%;
     display:flex;
     justify-content: space-evenly; 
-    margin-bottom: 100px;
-    margin-top:100px;
+    margin-bottom: 50px;
+    margin-top:50px;
 }
 
 .flex-img p{
     width: 200px;
     color:white;
+}
+.img-con h1{
+    margin-top: 50px;
+    margin-bottom: -20px;
 }
 .img-con{
     display: flex;
@@ -461,6 +466,7 @@ input[type=text], select, textarea {
 @media (max-width:600px){
     .img-text1{
         flex-direction: column;
+        margin-top: -200px;
     }
     .img-text2{
         flex-direction: column;
