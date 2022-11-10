@@ -218,11 +218,11 @@ body{
 }
 @media(max-width:600px){
     .about{
-        height:4200px;
+        height:4100px;
     }
     .flex-img img{
-        width:120px;
-        height:280px;
+        width:100px;
+        height:250px;
      }
 }
 .about h1{
