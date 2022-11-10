@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Greco</title>
-    <link rel="stylesheet" href="style/style.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="icon" type="image/x-icon" href="./images/logos/ElGreco-logo.png">
+    <link rel="stylesheet" href="style/greekstyle.css">
 </head>
 <body>
     <div class="nav" id="top">
@@ -15,23 +16,23 @@
 
         <div class="nav-items">
             <div>
-                <a class="log" href=index.html><img src="images/logos/ElGreco-logo.png" alt="elgreco-logo" width="50" height="50"></a>
+                <a class="log" href="index-gr.html"><img src="images/logos/ElGreco-logo.png" alt="elgreco-logo" width="50" height="50"></a>
             </div>
             <div>
-                <a href="#top" id="item" >HOME</a>
+                <a href="#top" id="item" >ΑΡΧΙΚΗ</a>
             </div>
             <div>
-                <a href="#con-men" id="item">MENU</a>
+                <a href="#con-men" id="item">ΜΕΝΟΥ</a>
             </div>
             <div>
-                <a href="#ab" id="item">ABOUT</a>
+                <a href="#ab" id="item">ΙΣΤΟΡΙΑ</a>
             </div>
             <div>
-                <a href="#bookmark" id="item">CONTACT</a>
+                <a href="#con" id="item">ΕΠΙΚΟΙΝΩΝΙΑ</a>
             </div>
             <div class="languages">
                 <a href="index-gr.html" class="lang"><img src="images/greek.png" alt="greek language" width="40" height="30"></a>
-                <a hre="index.hmtl" class="lang"><img src="images/gb.png" alt="english language" width="40" height="30"></a>
+                <a href="index.html" class="lang"><img src="images/gb.png" alt="english language" width="40" height="30"></a>
             </div>
             <div>
                 <img src="images/nav.png" id="NavBut" alt="nav logo" width=30 height="30">
@@ -39,95 +40,95 @@
         </div>
         <div id="hdnav">
             <div>
-                <a href="#top">HOME</a>
+                <a href="#top">ΑΡΧΙΚΗ</a>
             </div>
             <div>
-                <a href="#con-men">MENU</a>
+                <a href="#con-men">ΜΕΝΟΥ</a>
             </div>
             <div>
-                <a href="#ab">ABOUT</a>
+                <a href="#ab">ΙΣΤΟΡΙΑ</a>
             </div>
             <div>
-                <a href="#con-title">CONTACT</a>
+                <a href="#con">ΕΠΙΚΟΙΝΩΝΙΑ</a>
             </div>
         </div>
         <div class="main-img">
             <img src="images/logos/ElGreco-logo.png" alt="logo" width="200" height="200">
             <p>El Greco </p>
-            <button class="btn" type="button"><a href="#con-men">Go to Menu</a></button>
-            <p id="schedule">Open from 12:30pm to 12:30am</p>
+            <button class="btn" type="button"><a href="#con-men">Πήγαινε στο Μενού</a></button>
+            <p>ΩΡΑΡΙΟ ΛΕΙΤΟΥΡΓΙΑΣ: ΑΠΟ 12:30μμ ΕΩΣ 12:30μμ</p>
         </div>
     </div>
     <div class="container-menu" id="con-men">
         <div class="title-m">
-            <h1>MENU</h1>
+            <h1>ΜΕΝΟΥ</h1>
         </div>
         <div class="selection">
-            <button class="choices" onclick="buildSand()"  type="button" button>Sandwiches</button>
-            <button class="choices" onclick="buildPor()" type="button" button>Portions</button>
-            <button class="choices" onclick="buildEx()" type="button" button>Salads & Extras</button>
-            <button class="choices" onclick="buildDr()" type="button" button>Drinks</button>
+            <button class="choices" onclick="buildSand()"  type="button" button>Σάντουιτς</button>
+            <button class="choices" onclick="buildPor()" type="button" button>Μερίδες</button>
+            <button class="choices" onclick="buildEx()" type="button" button>Σαλάτες & Συνοδευτικά</button>
+            <button class="choices" onclick="buildDr()" type="button" button>Ποτά</button>
         </div>
         <div id="menu-items">
             <div class="meat">
-                <div><h1 id="sand"><span id="sand">Sandwich</h1></div>
-                <div><h1 id="price"><span id="price">Price</h1><br><br></div>
+                <div><h1 id="sand">Σάντουιτς</h1></div>
+                <div><h1 id="price">Τιμή</h1><br><br></div>
             </div>
             <div class="meat">
-                <div><h2>Gyros (Pork)</h2></div>
+                <div><h2>Γύρος (Χοιρινός)</h2></div>
                 <div><h2>3,90€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Souvlaki Chicken</h2></div>
+                <div><h2>Σουβλάκι Κοτόπουλο</h2></div>
                 <div><h2>3,50€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Souvlaki Pork</h2></div>
+                <div><h2>Σουβλάκι Χοιρινό</h2></div>
                 <div><h2>3,40€</h2><br></div>
             </div>
             <div class="meat-special">
-                <div><h2>Kontodouvli Pork</h2></div>
+                <div><h2>Κοντοσούβλι Χοιρινό</h2></div>
                 <div><h2>4,00€</h2><br></div>
             </div>
             <div class="meat-special">
-                <div><h2>Kontosouvli Chicken</h2></div>
+                <div><h2>Κοντοσούβλι Κοτόπουλο</h2></div>
                 <div><h2>4,00€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Seash Kebab</h2></div>
+                <div><h2>Σουντζουκάκι Πολίτικο</h2></div>
                 <div><h2>3,20€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Sausage</h2></div>
+                <div><h2>Λουκάνικο</h2></div>
                 <div><h2>2,90€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Meatball Handmade</h2></div>
+                <div><h2>Κεφτεδάκι Χειροποίητο</h2></div>
                 <div><h2>3,40€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Meatball Stuffed with Chesse</h2></div>
+                <div><h2>Μπιφτέκι Γεμιστό</h2></div>
                 <div><h2>3,20€</h2><br></div>
             </div>
             <div class="meat">
-                <div><h2>Pita with Potatoes</h2></div>
+                <div><h2>Πατατόπιτα</h2></div>
                 <div><h2>2,80€</h2><br><br></div>
             </div>
 
             <div class="meat">
-                <div><h3>Extra Salad</h3></div>
+                <div><h3>Έξτρα Σαλάτα</h3></div>
                 <div><h3>0,30€</h3><br></div>
             </div>
             <div class="meat">
-                <div><h3>Ingedients: Meat of your choice, Tomato, Onion, Ketchup, Mustard and French fries.</h3><br></div>
+                <div><h3>Υλικά: Κρέας της επιλογής σας, ντομάτα, κρεμμύδι, κέτσαπ, μουστάρδα και πατάτες τηγανιτές.</h3><br></div>
             </div>
             <div class="meat">
-                <div><h4>All meat are frozen.</h3></div>
+                <div><h4>Όλα τα κρέατα είναι κατεψυγμένα.</h3></div>
             </div>
         </div>
     </div>
     <div class="about" id="ab">
-        <h1>About</h1>
+        <h1>ΙΣΤΟΡΙΑ</h1>
         <p>El Greco was found on 2006 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corrupti eligendi alias magni, dolore dicta consequatur necessitatibus temporibus a veritatis cumque accusamus omnis. Quas maxime quisquam officiis impedit error officia.</p>
         <div class="img-con">
             <div class="img-text1">
@@ -146,7 +147,7 @@
                     <img src="images/Food2.jpg" alt="el greco Souvlaki"class="imaages-about">
                 </div>
             </div>
-            <div class="img-text3">
+            <div class="img-text2">
                 <div>
                     <img src="images/Food5.jpg" alt="el greco outside" class="imaages-about">
                 </div>
@@ -170,21 +171,20 @@
                 <img src="images/logos/ElGreco-logo.png" alt="gyros portion" width="200" height="200">
             </div>
         </div>
-    </div>
 
-    </div>
+        </div>
         <div class="fill">
             <img src="images/gerakini-halkidiki (1).jpg" alt="beach of gerakini-halkidiki">
         </div>
         <div class="contact" id="con">
             <div id="con-title">
-                <h1>Contact Information</h1>
+                <h1>Πληροφορίες Επικοινωνίας</h1>
             </div>
             <div class="flex-info">
                 <div class="info">
-                    <p>Direction: Gerakini-Halkidiki <br><br><br>
-                        Postal Code: 63100<br><br><br>
-                        Phone Number: +30 2371 052933
+                    <p>Διεύθυνση: Παραλία Γερακινής, Χαλκιδική <br><br><br>
+                        Ταχυδρομικός Κώδικας: 63100<br><br><br>
+                        Τηλέφωνο Επικοινωνίας: +30 2371 052933
                     </p>
                 </div>
                 <div class="social">
@@ -196,19 +196,19 @@
             </div>
         </div>
         <div class="ContactForm" >
-            <h3>Contact Form</h3>
+            <h3>Φόρμα Επικοινωνίας</h3>
             <div class="container">
                 <form action="https://formspree.io/f/moqbyqda" method="POST">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                <label for="fname">Όνομα</label>
+                <input type="text" id="fname" name="firstname" placeholder="πχ Γιάννης.." required>
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                <label for="country">E-mail Adress</label>
-                <input type="text" id="e-mail" name="e-mail" placeholder="Your e-mail .." required>
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write your subject.." ></textarea>
-                <label for="message">Message</label>
-                <textarea id="message" name="Message" placeholder="Write something.." style="height:200px" required></textarea>
+                <input type="text" id="lname" name="lastname" placeholder="πχ Παπαδόπουλος.." required>
+                <label for="country">Διεύθυνση E-mail</label>
+                <input type="text" id="e-mail" name="e-mail" placeholder="πχ email@gmail.com .." required>
+                <label for="subject">Θέμα</label>
+                <textarea id="subject" name="subject" placeholder="Θέμα.." ></textarea>
+                <label for="message">Μήνυμα</label>
+                <textarea id="message" name="Message" placeholder="Γράψτε εδώ.." style="height:200px" required></textarea>
                 <input type="submit" value="Submit">
             </form>
             </div>
@@ -216,6 +216,6 @@
         <div class="footer">
             <footer>Copyright &#169; 2022 MikeKor.</footer>
         </div>
-    <script src="javascript/int.js"></script>
+    <script src="javascript/intgr.js"></script>
 </body>
 </html>
