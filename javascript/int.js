@@ -282,15 +282,19 @@ $(document).ready(function(){
         $("#hdnav").slideDown("slow");
         console.log("Down");
         flag=1;
+        
       }
       else{
         $("#hdnav").slideUp("slow");
         console.log("UP");
         flag=0;
       }
-      
-    
     });
-    
   });
   
+  $('.hide').click(function(){
+    $("#hdnav").slideUp("slow");
+    
+    flag=0;
+  })
+ 

@@ -287,9 +287,12 @@ function buildPor(){
             console.log("UP");
             flag=0;
           }
-          
-        
         });
-        
       });
       
+     
+      $('.hide').click(function(){
+        $("#hdnav").slideUp("slow");
+        
+        flag=0;
+      })
