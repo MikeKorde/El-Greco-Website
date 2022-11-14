@@ -12,11 +12,11 @@ body{
     background-color: black;
 }
 .nav{
-    background-image: url('../images/El-Greco-Outside.jpg');
+    
     background-size: 100% 600px;
     background-repeat: no-repeat;
     animation-name: img-change;
-    animation-duration: 20s;
+    animation-duration: 10s;
     animation-iteration-count:infinite ;
 }
 
@@ -28,11 +28,12 @@ body{
    
   }
   @keyframes img-change{
-    10%  {background-image: url('../images/El-Greco-Outside.jpg');}
-    30%  {background-image: url('../images/backgyros.jpg');}
-    60%  {background-image: url('../images/Food5.jpg');}
-    80%  {background-image: url('../images/El\ Greco-outside2.jpg');}
-    100%   {background-image: url('../images/Food2.jpg');}
+    0%  {background-image: url('../images/smoke.jpg');}
+    20%  {background-image: url('../images/backgyros.jpg');}
+    40%  {background-image: url('../images/grill.jpg');}
+    60%  {background-image: url('../images/Food2.jpg');}
+    80% {background-image: url('../images/El-Greco-Outside.jpg');}
+    100% {background-image: url('../images/El-Greco-Outside.jpg');}
   }
   @media screen and (max-width: 600px){
   #item{
