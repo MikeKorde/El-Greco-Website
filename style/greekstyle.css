@@ -281,7 +281,7 @@ body{
 }}
 .contact{
     text-align: center;
-    height:500px;
+    height:1100px;
     background-color: rgb(48, 63, 46);
 }
 .flex-info{
@@ -291,6 +291,7 @@ body{
 }
 .contact h1{
     font-size: 40px;
+    padding-top: 50px;
 }
 @media screen and (max-width:600px) {
     .contact{
