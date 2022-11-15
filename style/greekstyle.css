@@ -236,6 +236,7 @@ body{
     text-align: center;
     position: inherit;
     top:200px;
+    margin-bottom: 100px;
 }
 .img-con h1{
     margin-top: 150px;
@@ -428,8 +429,8 @@ input[type=text], select, textarea {
 }
 
 .img-text img{
-    width: 500px;
-    height: 350px;
+    width: 550px;
+    height: 380px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 30px;
     filter: drop-shadow(0 0 0.75rem rgb(65, 36, 36));

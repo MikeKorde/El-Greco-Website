@@ -206,6 +206,12 @@ body{
     position: relative;
     font-size:30px;
 }
+.ab-text{
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 100px;
+    
+}
 @media(max-width:1000px){
 
 .flex-img img{
@@ -223,6 +229,7 @@ body{
     text-align: center;
     position: inherit;
     top:200px;
+    margin-bottom: 100px;
 }
 .flex-img{
     width: 100%;
@@ -410,19 +417,20 @@ input[type=text], select, textarea {
 }
 }
 .img-text{
-    margin-top: 300px;
+    margin-top: 200px;
     display: flex;
     text-align: center;
     width: 80%;
     column-gap: 50px;
 }
+
 .img-text p{
     margin-top:50px;
 }
 
 .img-text img{
-    width: 500px;
-    height: 350px;
+    width: 550px;
+    height: 380px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 30px;
     filter: drop-shadow(0 0 0.75rem rgb(65, 36, 36));
