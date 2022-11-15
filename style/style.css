@@ -12,12 +12,14 @@ body{
     background-color: black;
 }
 .nav{
-    background-image: url('../images/El-Greco-Outside.jpg');
-    background-size: 100% 600px;
+    background-image: url('../images/backgyros.jpg');
+    background-size: 90% 800px;
+    background-position: center;
     background-repeat: no-repeat;
     animation-name: img-change;
     animation-duration: 20s;
     animation-iteration-count:infinite ;
+    animation-delay: 4s;
 }
 
 @media screen and (max-width: 900px) {
@@ -28,11 +30,12 @@ body{
    
   }
   @keyframes img-change{
-    10%  {background-image: url('../images/El-Greco-Outside.jpg');}
-    30%  {background-image: url('../images/backgyros.jpg');}
-    60%  {background-image: url('../images/Food5.jpg');}
-    80%  {background-image: url('../images/El\ Greco-outside2.jpg');}
-    100%   {background-image: url('../images/Food2.jpg');}
+    0%  {background-image: url('../images/backgyros.jpg');}
+    20%  {background-image: url('../images/meatball.jpg');}
+    40%  {background-image: url('../images/grill.jpg');}
+    60%  {background-image: url('../images/souvlakia.jpg');}
+    80% {background-image: url('../images/El-Greco-Outside.jpg');}
+    100% {background-image: url('../images/backgyros.jpg');}
   }
   @media screen and (max-width: 600px){
   #item{
@@ -193,13 +196,8 @@ body{
     justify-content: space-between;
     background-color: rgb(241, 241, 163);
 }
-.meat.meat h1{
-    text-decoration: underline;
-}
-.fade{
-    width: 100%;
-    background: linear-gradient(black, rgb(107, 48, 48));
-}
+
+
 .about{
     margin-top: 100px;
     width: 100%;
@@ -238,10 +236,9 @@ body{
 
 .flex-img p{
     width: 200px;
-    color:white;
 }
 .img-con h1{
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: -20px;
 }
 .img-con{
@@ -254,8 +251,8 @@ body{
 }
 
 .about p{
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .fill img{
@@ -277,7 +274,8 @@ body{
 }
 
 .contact{
-    height:500px;
+    text-align: center;
+    height:1000px;
     background-color: rgb(48, 63, 46);
 }
 .flex-info{
@@ -287,7 +285,7 @@ body{
 
 @media screen and (max-width:600px) {
     .contact{
-        height: 800px;
+        height: 1400px;
     }
     .flex-info{
         margin-top: 150px;
@@ -298,7 +296,7 @@ body{
     text-align: center;
 }
 .social h2{
-    margin-top: 80px;
+    margin-top: 200px;
     margin-bottom: 40px;
     
 }
@@ -311,6 +309,15 @@ body{
     top:18%;
     color:white;
     font-size: 30px;
+}
+
+.maps{
+    margin-top: 200px;
+    opacity: 0.8;
+
+}
+.maps:hover{
+    opacity: 1;
 }
 .ContactForm{
     width: 80%;
@@ -414,8 +421,7 @@ input[type=text], select, textarea {
     column-gap: 50px;
 }
 .img-text1 p{
-    margin-top:100px;
-    color:white;
+    margin-top:50px;
 }
 .img-text2{
     margin-top: 200px;
@@ -425,8 +431,7 @@ input[type=text], select, textarea {
     column-gap: 50px;
 }
 .img-text2 p{
-    margin-top:100px;
-    color:white;
+    margin-top:50px;
 }
 .img-text3{
     margin-top: 200px;
@@ -436,8 +441,7 @@ input[type=text], select, textarea {
     column-gap: 50px;
 }
 .img-text3 p{
-    margin-top:100px;
-    color:white;
+    margin-top:50px;
 }
 
 .img-text1 img{
@@ -491,4 +495,7 @@ input[type=text], select, textarea {
         width:90%;
         height:auto;
     }
+}
+span{
+    font-size:35px !important;
 }

@@ -12,28 +12,31 @@ body{
     background-color: black;
 }
 .nav{
-    
-    background-size: 100% 600px;
+    background-image: url('../images/backgyros.jpg');
+    background-size: 90% 800px;
+    background-position: center;
     background-repeat: no-repeat;
     animation-name: img-change;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count:infinite ;
+    animation-delay: 4s;
 }
 
 @media screen and (max-width: 900px) {
     .nav {
-      height:700px;
+      height:600px;
       background-size: 100% 420px;
+      background-position: 0 0;
     }
    
   }
   @keyframes img-change{
-    0%  {background-image: url('../images/smoke.jpg');}
-    20%  {background-image: url('../images/backgyros.jpg');}
+    0%  {background-image: url('../images/backgyros.jpg');}
+    20%  {background-image: url('../images/meatball.jpg');}
     40%  {background-image: url('../images/grill.jpg');}
-    60%  {background-image: url('../images/Food2.jpg');}
+    60%  {background-image: url('../images/souvlakia.jpg');}
     80% {background-image: url('../images/El-Greco-Outside.jpg');}
-    100% {background-image: url('../images/El-Greco-Outside.jpg');}
+    100% {background-image: url('../images/backgyros.jpg');}
   }
   @media screen and (max-width: 600px){
   #item{
@@ -203,13 +206,7 @@ body{
     background-color: rgb(241, 241, 163);
     font-size: 15px;
 }
-.meat.meat h1{
-    text-decoration: underline;
-}
-.fade{
-    width: 100%;
-    background: linear-gradient(black, rgb(107, 48, 48));
-}
+
 .about{
     text-align: center;
     margin-top: 100px;
@@ -244,7 +241,7 @@ body{
     top:200px;
 }
 .img-con h1{
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .flex-img{
     width: 100%;
@@ -297,7 +294,7 @@ body{
 }
 @media screen and (max-width:600px) {
     .contact{
-        height: 800px;
+        height: 1400px;
     }
     .flex-info{
         margin-top: 150px;
@@ -308,11 +305,19 @@ body{
     text-align: center;
 }
 .social h2{
-    margin-top: 50px;
+    margin-top: 200px;
     margin-bottom: 40px; 
 }
 .social a{
     cursor: pointer;    
+}
+.maps{
+    margin-top: 200px;
+    opacity: 0.8;
+
+}
+.maps:hover{
+    opacity: 1;
 }
 .contact p{
     text-align: center;
