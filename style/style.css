@@ -13,7 +13,7 @@ body{
 }
 .nav{
     background-image: url('../images/backgyros.jpg');
-    background-size: 90% 800px;
+    background-size: 80% 1100px;
     background-position: center;
     background-repeat: no-repeat;
     animation-name: img-change;
@@ -22,11 +22,11 @@ body{
     animation-delay: 4s;
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 600px) {
     .nav {
       height:700px;
-      background-size: 100% 430px;
-      background-position: 0 0;
+      background-size: 800px 900px;
+      background-position: 50 0;
     }
    
   }
@@ -207,7 +207,7 @@ body{
     position: relative;
     font-size:30px;
 }
-@media(max-width:600px){
+@media(max-width:1000px){
     .about{
     height:3500px;
 }
@@ -255,17 +255,14 @@ body{
     font-size: 25px;
     font-weight: 600;
 }
-
+.fill{
+    height:700px;
+}
 .fill img{
     width:100%;
     height:700px;
-
 }
-@media screen and (max-width:600px){
-    .fill {
-        position: relative;
-        background-color: rgb(90, 57, 57);
-}}
+
 #con-title{
     background-color: rgb(48, 63, 46);
     color:black;
@@ -283,7 +280,7 @@ body{
     justify-content: space-around;
 }
 
-@media screen and (max-width:600px) {
+@media (max-width:900px) {
     .contact{
         height: 1400px;
     }
@@ -470,7 +467,7 @@ input[type=text], select, textarea {
     filter: drop-shadow(0 0 0.75rem rgb(65, 36, 36));
 
 }
-@media (max-width:600px){
+@media (max-width:1000px){
     .img-text1{
         flex-direction: column;
         margin-top: -200px;
@@ -484,7 +481,6 @@ input[type=text], select, textarea {
     .img-text1 img{
         width:90%;
         height:auto;
-        margin-top: -400px;
     }
     .img-text2 img{
         width:90%;
