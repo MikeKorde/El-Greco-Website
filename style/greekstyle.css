@@ -223,7 +223,7 @@ body{
 }
 @media(max-width:600px){
     .about{
-        height:4200px;
+        height:3500px;
     }
     .flex-img img{
         width:100px;
@@ -414,7 +414,7 @@ input[type=text], select, textarea {
 }
 @media (max-width:600px){
 .languages{
-    top:5px;
+    top:10px;
     left:60%;
 }
 }
