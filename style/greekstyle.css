@@ -26,7 +26,7 @@ body{
     .nav {
       height:600px;
       background-size: 800px 900px;
-      background-position: 50 0;
+      background-position: 50 0, center;
     }
    
   }
@@ -39,7 +39,7 @@ body{
     100% {background-image: url('../images/backgyros.jpg');}
   }
   @media screen and (max-width: 600px){
-  #item{
+  .item{
     display:none;
 }
     #NavBut{
