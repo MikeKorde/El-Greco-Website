@@ -11,6 +11,7 @@ body{
     font-family: "Amatic";
     background-color: black;
 }
+
 .nav{
     background-image: url('../images/backgyros.jpg');
     background-size: 80% 1100px;
@@ -21,6 +22,37 @@ body{
     animation-iteration-count:infinite ;
     animation-delay: 4s;
 }
+html,body{
+    animation-name: img-change;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    background-size: 0px 0px;
+    background-position: center;
+    z-index: -10;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+@keyframes img-change{
+    0%  {
+        background-image: url('../images/backgyros.jpg');
+    }
+    20%  {
+        background-image: url('../images/meatball.jpg');
+    }
+    40%  {
+        background-image: url('../images/grill.jpg');
+    }
+    60%  {
+        background-image: url('../images/souvlakia.jpg');
+    }
+    80% {
+        background-image: url('../images/El-Greco-Outside.jpg');
+    }
+    100% {
+        background-image: url('../images/backgyros.jpg');
+    }
+  }
 
 @media (max-width: 600px) {
     .nav {
@@ -28,16 +60,8 @@ body{
       background-size: 800px 900px;
       background-position: 50 0, center ;
     }
-   
   }
-  @keyframes img-change{
-    0%  {background-image: url('../images/backgyros.jpg');}
-    20%  {background-image: url('../images/meatball.jpg');}
-    40%  {background-image: url('../images/grill.jpg');}
-    60%  {background-image: url('../images/souvlakia.jpg');}
-    80% {background-image: url('../images/El-Greco-Outside.jpg');}
-    100% {background-image: url('../images/backgyros.jpg');}
-  }
+  
   @media screen and (max-width: 600px){
   .item{
     display:none;

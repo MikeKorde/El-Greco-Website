@@ -297,4 +297,6 @@ $(document).ready(function(){
     
     flag=0;
   })
- 
+
+  $( document ).ready(function() {
+});
