@@ -10,6 +10,7 @@
 body{
     font-family: "Mans";
     background-color: black;
+    
 }
 .nav{
     background-image: url('../images/backgyros.jpg');
@@ -170,14 +171,14 @@ body{
     justify-content: space-around;
 }
 @media (max-width:600px){
-    .selection{
-    width: 90%;
-    margin-left:5%;
+    .choices{
+        font-size: 19px !important;
     }
+
 }
 .choices{
     font-family: "Mans";
-    font-size: 25px;
+    font-size: 28px;
     padding: 12px 20px;
     border: 1px solid white;
     color:white;
@@ -291,7 +292,7 @@ body{
     font-size: 40px;
     padding-top: 50px;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
     .contact{
         height: 1400px;
     }
@@ -416,9 +417,13 @@ input[type=text], select, textarea {
     top:10px;
     left:60%;
 }
+.maps{
+    width:300px;
+    height:200px;
+}     
 }
 .img-text{
-    margin-top: 100px;
+    margin-top: 20px;
     display: flex;
     text-align: center;
     width: 80%;
