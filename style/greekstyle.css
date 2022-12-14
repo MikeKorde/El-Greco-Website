@@ -480,13 +480,11 @@ span{
 .hiddenR{
     opacity:0;
     filter:blur(5px);
-    transform: translateX(+100%);
     transition: all 1s;
 }
 .hiddenImgR{
     opacity:0;
     filter:blur(5px);
-    transform: translateX(+100%);
     transition: all 1s;
 }
 .hidden{
