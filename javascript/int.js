@@ -274,6 +274,7 @@ function topFunction() {
     document.documentElement.style.scrollBehavior = "smooth";
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    
 }
 var  flag=0;
 $(document).ready(function(){
@@ -300,3 +301,25 @@ $(document).ready(function(){
 
   $( document ).ready(function() {
 });
+
+
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        console.log(entry);
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+        else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElementsL = document.querySelectorAll('.hiddenL');
+hiddenElementsL.forEach((el)=> observer.observe(el));
+
+const hiddenElementsR = document.querySelectorAll('.hiddenR');
+hiddenElementsR.forEach((el)=> observer.observe(el));
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el)=> observer.observe(el));
