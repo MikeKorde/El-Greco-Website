@@ -167,8 +167,8 @@ body{
 .container-menu{
     width: 60%;
     height:1000px;
-    background-color: white;
     margin-left: 20%;
+    background-color: rgb(125, 125, 125);
     margin-top: 100px;
 }
 @media (max-width:600px) {
@@ -227,7 +227,6 @@ body{
     top:15%;
     margin-left: 20%;
     justify-content: space-between;
-    background-color: rgb(245, 245, 95);
 }
 
 
@@ -531,4 +530,9 @@ span{
         transition:none;
     }
 
+}
+.lan-men{
+    margin-top: 100px;
+    margin-bottom: -90px;
+    text-align: center;
 }
