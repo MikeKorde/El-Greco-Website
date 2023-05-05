@@ -1,0 +1,16 @@
+.choices{
+    background-color: rgb(80, 80, 80)!important;
+}
+.meat{
+    color:white !important;
+    background-color: black!important;
+}
+#menu-items{
+    background-color: black;
+}
+.selection{
+    background-color: black;
+}
+.container-menu{
+    background-color: black;
+}

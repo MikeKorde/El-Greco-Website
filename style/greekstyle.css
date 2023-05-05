@@ -152,7 +152,7 @@ html,body{
 .container-menu{
     width: 60%;
     height:1000px;
-    background-color: rgb(125, 125, 125);
+    background-color: rgb(89, 89, 89);
     margin-left: 20%;
     margin-top: 100px;
 }
@@ -503,5 +503,10 @@ span{
     .hiddenL{
         transition:none;
     }
-
 }
+.lan-men{
+    margin-top: 100px;
+    margin-bottom: -90px;
+    text-align: center;
+}
+
