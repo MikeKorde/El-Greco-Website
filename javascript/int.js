@@ -138,7 +138,7 @@ function buildEx(){
             <div><h2>0,60€/2,80€<br></div>
         </div>
         <div class="meat">
-            <div><h2>Feta Cheese</h2></div>
+            <div><h2>Feta Cheese Sauce</h2></div>
             <div><h2>0,60€/3,00€<br></div>
         </div>
         <div class="meat">
