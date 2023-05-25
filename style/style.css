@@ -210,7 +210,8 @@ body{
     background-color:rgb(0, 0, 0);
 }
 .choices:hover{
-    background-color:red;
+    background-color:red !important;
+    cursor: pointer;
 }
 #menu-items{
     position: relative;

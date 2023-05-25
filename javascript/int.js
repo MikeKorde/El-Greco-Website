@@ -139,19 +139,23 @@ function buildEx(){
         </div>
         <div class="meat">
             <div><h2>Feta Cheese Sauce</h2></div>
-            <div><h2>0,60€/3,00€<br></div>
+            <div><h2>0,80€/3,00€<br></div>
         </div>
         <div class="meat">
             <div><h2>Mustard & Mayo</h2></div>
-            <div><h2>0,60€/3,00€</h2></div>
+            <div><h2>0,80€/3,00€</h2></div>
         </div>
         <div class="meat">
-            <div><h2>Russian</h2></div>
-            <div><h2>0,60€/3,00€</h2></div>
+            <div><h2>Mayo & Vegetables</h2></div>
+            <div><h2>0,80€/3,00€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Paprika</h2></div>
-            <div><h2>0,60€/3,00€</h2><br><br></div>
+            <div><h2>0,80€/3,00€</h2></div>
+        </div>
+        <div class="meat">
+            <div><h2>Mayo & Ham</h2></div>
+            <div><h2>0,80€/3,00€</h2><br><br></div>
         </div>
         <div class="meat">
             <div><h1>Extras</h1></div>
@@ -225,12 +229,8 @@ function buildDr(){
             <div><h1>Price</h1><br></div>
         </div>
         <div class="meat">
-            <div><h2>Draft Beer (500ml)</h2></div>
+            <div><h2>Draft Beer (400ml)</h2></div>
             <div><h2>3,00€</h2></div>
-        </div> 
-        <div class="meat">
-            <div><h2>Draft Beer (330ml)</h2></div>
-            <div><h2>2,30€</h2></div>
         </div> 
         <div class="meat">
             <div><h2>Beer (500ml)</h2></div>
@@ -238,7 +238,7 @@ function buildDr(){
         </div>        
         <div class="meat">
             <div><h2>Beer (330ml)</h2></div>
-            <div><h2>2.30€</h2></div>
+            <div><h2>2.50€</h2></div>
         </div>   
         <div class="meat">
             <div><h2>Retsina (500ml)</h2></div>

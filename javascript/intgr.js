@@ -139,19 +139,23 @@ function buildPor(){
             </div>
             <div class="meat">
                 <div><h2>Τυροκαυτερή</h2></div>
-                <div><h2>0,60€/3,00€<br></div>
+                <div><h2>0,80€/3,00€<br></div>
             </div>
             <div class="meat">
                 <div><h2>Σώς Μουστάρδας</h2></div>
-                <div><h2>0,60€/3,00€</h2></div>
+                <div><h2>0,80€/3,00€</h2></div>
             </div>
             <div class="meat">
                 <div><h2>Ρώσικη</h2></div>
-                <div><h2>0,60€/3,00€</h2></div>
+                <div><h2>0,80€/3,00€</h2></div>
             </div>
             <div class="meat">
                 <div><h2>Πάπρικα</h2></div>
-                <div><h2>0,60€/3,00€</h2><br><br></div>
+                <div><h2>0,80€/3,00€</h2></div>
+            </div>
+            <div class="meat">
+                <div><h2>Ουγγαρέζα</h2></div>
+                <div><h2>0,80€/3,00€</h2><br><br></div>
             </div>
             <div class="meat">
                 <div><h1>Συνοδευτικά</h1></div>
@@ -190,7 +194,7 @@ function buildPor(){
         <div id="menu-items">
             <div class="meat">
                 <div><h1>Μη Αλκοολούχα Ποτά</h1></div>
-                <div><h1>Price</h1><br></div>
+                <div><h1>Τιμή</h1><br></div>
             </div>
             <div class="meat">
                 <div><h2>Αναψυκτικά (330ml)</h2></div>
@@ -225,20 +229,16 @@ function buildPor(){
                 <div><h1>Τιμή</h1><br></div>
             </div>
             <div class="meat">
-                <div><h2>Μπύρα Βαρέλι (500ml)</h2></div>
+                <div><h2>Μπύρα Βαρέλι (400ml)</h2></div>
                 <div><h2>3,00€</h2></div>
-            </div> 
-            <div class="meat">
-                <div><h2>Μπύρα Βαρέλι (330ml)</h2></div>
-                <div><h2>2,30€</h2></div>
             </div> 
             <div class="meat">
                 <div><h2>Μπύρες (500ml)</h2></div>
-                <div><h2>3,00€</h2></div>
+                <div><h2>3,50€</h2></div>
             </div>        
             <div class="meat">
                 <div><h2>Μπύρες (330ml)</h2></div>
-                <div><h2>2.30€</h2></div>
+                <div><h2>2.50€</h2></div>
             </div>   
             <div class="meat">
                 <div><h2>Ρετσίνα (500ml)</h2></div>
