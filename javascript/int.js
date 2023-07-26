@@ -126,6 +126,10 @@ function buildEx(){
             <div><h2>5,50€</h2></div>
         </div>
         <div class="meat">
+            <div><h2>Dakos</h2></div>
+            <div><h2>5,50€</h2></div>
+        </div>
+        <div class="meat">
             <div><h2>Tomato and Cocumber Salad</h2></div>
             <div><h2>3,50€</h2><br></div>
         </div>
@@ -168,6 +172,10 @@ function buildEx(){
         <div class="meat">
             <div><h2>Feta</h2></div>
             <div><h2>3,00€</h2></div>
+        </div>
+        <div class="meat">
+            <div><h2>Halloumi Cheese</h2></div>
+            <div><h2>3,50€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Pepper (Spicy)</h2></div>

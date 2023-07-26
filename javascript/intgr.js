@@ -126,6 +126,10 @@ function buildPor(){
                 <div><h2>5,50€</h2></div>
             </div>
             <div class="meat">
+                <div><h2>Ντάκος</h2></div>
+                <div><h2>5,50€</h2></div>
+            </div>
+            <div class="meat">
                 <div><h2>Αγγουροντομάτα</h2></div>
                 <div><h2>3,50€</h2><br></div>
             </div>
@@ -168,6 +172,10 @@ function buildPor(){
             <div class="meat">
                 <div><h2>Φέτα</h2></div>
                 <div><h2>3,00€</h2></div>
+            </div>
+            <div class="meat">
+                <div><h2>Χαλούμι</h2></div>
+                <div><h2>3,50€</h2></div>
             </div>
             <div class="meat">
                 <div><h2>Καυτερή Πιπεριά</h2></div>
