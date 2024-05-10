@@ -43,6 +43,10 @@ function buildPor(){
         <div><h2>8,30€</h2><br><br></div>
     </div>
     <div class="meat">
+        <div><h2>Πανσέτα (7 τμχ)</h2></div>
+        <div><h2>8,00€</h2><br><br></div>
+    </div>
+    <div class="meat">
         <div><h3>Υλικά: Κρέας της επιλογής σας, ντομάτα, κρεμμύδι, σαλάτα της επιλογής σας και πατάτες τηγανιτές</h3><br></div>
     </div>
     <div class="meat">
@@ -143,7 +147,7 @@ function buildPor(){
             </div>
             <div class="meat">
                 <div><h2>Τυροκαυτερή</h2></div>
-                <div><h2>0,80€/3,20<br></div>
+                <div><h2>0,80€/3,20€<br></div>
             </div>
             <div class="meat">
                 <div><h2>Σώς Μουστάρδας</h2></div>

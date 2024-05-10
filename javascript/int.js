@@ -43,6 +43,10 @@ html=`
     <div><h2>8,30€</h2><br><br></div>
 </div>
 <div class="meat">
+    <div><h2>Pork belly (pancetta 7pcs)</h2></div>
+    <div><h2>8,30€</h2><br><br></div>
+</div>
+<div class="meat">
     <div><h3>Ingredients: Meat of your choice, Tomato, Onion, Salad of your Choice and French Fries.</h3><br></div>
 </div>
 <div class="meat">
@@ -94,6 +98,10 @@ function buildSand(){
 <div class="meat">
     <div><h2>Meatball Stuffed with Chesse</h2></div>
     <div><h2>3,90€</h2><br></div>
+</div>
+<div class="meat">
+    <div><h2>Pork belly (pancetta)</h2></div>
+    <div><h2>4,00€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Ask for Vegeterian option</h2><br><br></div>
