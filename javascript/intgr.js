@@ -100,6 +100,10 @@ function buildPor(){
                 <div><h2>3,90€</h2><br></div>
             </div>
             <div class="meat">
+                <div><h2>Πανσέτα</h2></div>
+                <div><h2>3,90€</h2><br></div>
+            </div>
+            <div class="meat">
                 <div><h2>Για χορτοφαγική επιλογή ρωτήστε το προσωπικό</h2><br><br></div>
             </div>
 
