@@ -44,7 +44,7 @@ html=`
 </div>
 <div class="meat">
     <div><h2>Pork belly (pancetta 7pcs)</h2></div>
-    <div><h2>8,30€</h2><br><br></div>
+    <div><h2>8,00€</h2><br><br></div>
 </div>
 <div class="meat">
     <div><h3>Ingredients: Meat of your choice, Tomato, Onion, Salad of your Choice and French Fries.</h3><br></div>
