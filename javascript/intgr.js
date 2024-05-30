@@ -47,6 +47,10 @@ function buildPor(){
         <div><h2>8,00€</h2><br><br></div>
     </div>
     <div class="meat">
+        <div><h2>Φιλέτο κοτόπουλο</h2></div>
+        <div><h2>8,50€</h2><br><br></div>
+    </div>
+    <div class="meat">
         <div><h3>Υλικά: Κρέας της επιλογής σας, ντομάτα, κρεμμύδι, σαλάτα της επιλογής σας και πατάτες τηγανιτές</h3><br></div>
     </div>
     <div class="meat">
@@ -104,6 +108,10 @@ function buildPor(){
                 <div><h2>4,00€</h2><br></div>
             </div>
             <div class="meat">
+                <div><h2>Φιλέτο Κοτόπουλο</h2></div>
+                <div><h2>4,30€</h2><br></div>
+            </div>
+            <div class="meat">
                 <div><h2>Για χορτοφαγική επιλογή ρωτήστε το προσωπικό</h2><br><br></div>
             </div>
 
@@ -140,6 +148,10 @@ function buildPor(){
             <div class="meat">
                 <div><h2>Αγγουροντομάτα</h2></div>
                 <div><h2>4,00€</h2><br></div>
+            </div>
+            <div class="meat">
+                <div><h2>El Greco (Πράσινη Σαλάτα)</h2></div>
+                <div><h2>7,00€</h2><br></div>
             </div>
             <div class="meat">
                 <div></div>
