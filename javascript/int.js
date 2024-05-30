@@ -16,7 +16,7 @@ html=`
 </div>
 <div class="meat">
     <div><h2>Souvlaki Pork (3 pcs)</h2></div>
-    <div><h2>8,30€</h2><br></div>
+    <div><h2>8,50€</h2><br></div>
 </div>
 <div class="meat-special">
     <div><h2>Kontosouvli Pork</h2></div>

@@ -16,7 +16,7 @@ function buildPor(){
     </div>
     <div class="meat">
         <div><h2>Σουβλάκι Χοιρινό (3 τμχ)</h2></div>
-        <div><h2>8,30€</h2><br></div>
+        <div><h2>8,50€</h2><br></div>
     </div>
     <div class="meat-special">
         <div><h2>Κοντοσούβλι Χοιρινό</h2></div>
