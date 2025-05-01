@@ -8,43 +8,43 @@ html=`
 </div>
 <div class="meat">
     <div><h2>Gyros (Pork)</h2></div>
-    <div><h2>8,90€</h2><br></div>
+    <div><h2>9,50€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Souvlaki Chicken(3 pcs)</h2></div>
-    <div><h2>8,50€</h2><br></div>
+    <div><h2>9,00€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Souvlaki Pork (3 pcs)</h2></div>
-    <div><h2>8,50€</h2><br></div>
+    <div><h2>9,00€</h2><br></div>
 </div>
 <div class="meat-special">
     <div><h2>Kontosouvli Pork</h2></div>
-    <div><h2>9,50€</h2><br></div>
+    <div><h2>10,00€</h2><br></div>
 </div>
 <div class="meat-special">
     <div><h2>Kontosouvli Chicken</h2></div>
-    <div><h2>9,50€</h2><br></div>
+    <div><h2>10,00€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Seash Kebab (10pcs)</h2></div>
-    <div><h2>7,80€</h2><br></div>
+    <div><h2>8,50€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Sausage (2 pcs)</h2></div>
-    <div><h2>7,00€</h2><br></div>
+    <div><h2>7,20€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Meatball stuffed with cheese (2 pcs)</h2></div>
-    <div><h2>7,80€</h2><br></div>
+    <div><h2>8,50€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Meatball Handmade (4 pcs)</h2></div>
-    <div><h2>8,30€</h2><br><br></div>
+    <div><h2>8,80€</h2><br><br></div>
 </div>
 <div class="meat">
     <div><h2>Pork belly (pancetta 7pcs)</h2></div>
-    <div><h2>8,00€</h2><br><br></div>
+    <div><h2>8,50€</h2><br><br></div>
 </div>
 <div class="meat">
     <div><h2>Chicken fillet</h2></div>
@@ -69,47 +69,47 @@ function buildSand(){
 </div>
 <div class="meat">
     <div><h2>Gyros (Pork)</h2></div>
-    <div><h2>4,50€</h2><br></div>
+    <div><h2>4,80€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Souvlaki Chicken</h2></div>
-    <div><h2>4,20€</h2><br></div>
+    <div><h2>4,50€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Souvlaki Pork</h2></div>
-    <div><h2>4,20€</h2><br></div>
+    <div><h2>4,50€</h2><br></div>
 </div>
 <div class="meat-special">
     <div><h2>Kontosouvli Pork</h2></div>
-    <div><h2>4,60€</h2><br></div>
+    <div><h2>5,00€</h2><br></div>
 </div>
 <div class="meat-special">
     <div><h2>Kontosouvli Chicken</h2></div>
-    <div><h2>4,60€</h2><br></div>
+    <div><h2>5,00€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Seash Kebab</h2></div>
-    <div><h2>3,90€</h2><br></div>
+    <div><h2>4,30€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Sausage</h2></div>
-    <div><h2>3,80€</h2><br></div>
+    <div><h2>4,20€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Meatball Handmade</h2></div>
-    <div><h2>3,90€</h2><br></div>
+    <div><h2>4,50€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Meatball Stuffed with Chesse</h2></div>
-    <div><h2>3,90€</h2><br></div>
+    <div><h2>4,30€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Pork belly (pancetta)</h2></div>
-    <div><h2>4,00€</h2><br></div>
+    <div><h2>4,30€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Chicken fillet</h2></div>
-    <div><h2>4,30€</h2><br></div>
+    <div><h2>4,50€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Ask for Vegeterian option</h2><br><br></div>
@@ -139,19 +139,19 @@ function buildEx(){
         </div>
         <div class="meat">
             <div><h2>Greek Salad</h2></div>
-            <div><h2>6,50€</h2></div>
+            <div><h2>7,30€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Dakos</h2></div>
-            <div><h2>6,80€</h2></div>
+            <div><h2>7,80€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Tomato and Cocumber Salad</h2></div>
-            <div><h2>4,00€</h2><br></div>
+            <div><h2>4,50€</h2><br></div>
         </div>
         <div class="meat">
             <div><h2>El Greco (Green Salad)</h2></div>
-            <div><h2>7,00€</h2><br></div>
+            <div><h2>8,50€</h2><br></div>
         </div>
         <div class="meat">
             <div></div>
@@ -159,27 +159,27 @@ function buildEx(){
         </div>
         <div class="meat">
             <div><h2>Tzatziki</h2></div>
-            <div><h2>0,60€/3,00€<br></div>
+            <div><h2>0,60€/3,50€<br></div>
         </div>
         <div class="meat">
             <div><h2>Feta Cheese Sauce</h2></div>
-            <div><h2>0,80€/3,20€<br></div>
+            <div><h2>0,80€/3,80€<br></div>
         </div>
         <div class="meat">
             <div><h2>Mustard & Mayo</h2></div>
-            <div><h2>0,80€/3,20€</h2></div>
+            <div><h2>0,80€/3,80€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Mayo & Vegetables</h2></div>
-            <div><h2>0,80€/3,20€</h2></div>
+            <div><h2>0,80€/3,80€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Paprika</h2></div>
-            <div><h2>0,80€/3,20€</h2></div>
+            <div><h2>0,80€/3,80€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Mayo & Ham</h2></div>
-            <div><h2>0,80€/3,20€</h2><br><br></div>
+            <div><h2>0,80€/3,80€</h2><br><br></div>
         </div>
         <div class="meat">
             <div><h1>Extras</h1></div>
@@ -191,7 +191,7 @@ function buildEx(){
         </div>
         <div class="meat">
             <div><h2>Feta</h2></div>
-            <div><h2>3,50€</h2></div>
+            <div><h2>3,80€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Halloumi Cheese</h2></div>
@@ -199,7 +199,7 @@ function buildEx(){
         </div>
         <div class="meat">
             <div><h2>Pepper (Spicy)</h2></div>
-            <div><h2>1,50€</h2><br><br></div>
+            <div><h2>1,80€</h2><br><br></div>
         </div>
         <div class="meat">
             <div><h2>Pita Pan</h2></div>
@@ -226,27 +226,27 @@ function buildDr(){
         </div>
         <div class="meat">
             <div><h2>Refreshments (330ml)</h2></div>
-            <div><h2>1,70€</h2></div>
-        </div>
-        <div class="meat">
-            <div><h2>Refreshments (500ml)</h2></div>
-            <div><h2>2,20€</h2></div>
-        </div>
-        <div class="meat">
-            <div><h2>Ice Tea</h2></div>
-            <div><h2>2,20€</h2></div>
-        </div>
-        <div class="meat">
-            <div><h2>Juice</h2></div>
-            <div><h2>1,30€</h2></div>
-        </div>
-        <div class="meat">
-            <div><h2>Juice Motion</h2></div>
             <div><h2>2,00€</h2></div>
         </div>
         <div class="meat">
+            <div><h2>Refreshments (500ml)</h2></div>
+            <div><h2>2,50€</h2></div>
+        </div>
+        <div class="meat">
+            <div><h2>Ice Tea</h2></div>
+            <div><h2>2,50€</h2></div>
+        </div>
+        <div class="meat">
+            <div><h2>Juice</h2></div>
+            <div><h2>1,50€</h2></div>
+        </div>
+        <div class="meat">
+            <div><h2>Juice Motion</h2></div>
+            <div><h2>2,50€</h2></div>
+        </div>
+        <div class="meat">
             <div><h2>Sparkling Water</h2></div>
-            <div><h2>1,70€</h2></div>
+            <div><h2>2,00€</h2></div>
         </div>
         <div class="meat">
             <div><h2>Water (500ml)</h2></div>
@@ -262,7 +262,7 @@ function buildDr(){
         </div> 
         <div class="meat">
             <div><h2>Beer (500ml)</h2></div>
-            <div><h2>3,50€</h2></div>
+            <div><h2>3,70€</h2></div>
         </div>        
         <div class="meat">
             <div><h2>Beer (330ml)</h2></div>
@@ -274,7 +274,7 @@ function buildDr(){
         </div>
         <div class="meat">
             <div><h2>Retsina (Basiliki) (500ml)</h2></div>
-            <div><h2>4,20€</h2></div>
+            <div><h2>4,50€</h2></div>
         </div>     
         <div class="meat">
             <div><h2>Wine</h2></div>
