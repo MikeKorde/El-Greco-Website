@@ -191,7 +191,7 @@ function buildPor(){
             </div>
             <div class="meat">
                 <div><h2>Φέτα</h2></div>
-                <div><h2>3,50€</h2></div>
+                <div><h2>3,80€</h2></div>
             </div>
             <div class="meat">
                 <div><h2>Χαλούμι</h2></div>
