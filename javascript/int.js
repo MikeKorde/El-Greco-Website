@@ -47,7 +47,7 @@ html=`
     <div><h2>9,00€</h2><br><br></div>
 </div>
 <div class="meat">
-    <div><h2>Chicken fillet</h2></div>
+    <div><h2>Chicken nuggets</h2></div>
     <div><h2>9,00€</h2><br><br></div>
 </div>
 <div class="meat">
@@ -108,8 +108,8 @@ function buildSand(){
     <div><h2>4,50€</h2><br></div>
 </div>
 <div class="meat">
-    <div><h2>Chicken fillet</h2></div>
-    <div><h2>4,70€</h2><br></div>
+    <div><h2>Chicken nuggets</h2></div>
+    <div><h2>4,60€</h2><br></div>
 </div>
 <div class="meat">
     <div><h2>Ask for Vegeterian option</h2><br><br></div>
