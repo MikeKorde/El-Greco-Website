@@ -8,31 +8,31 @@ function buildPor(){
     </div>
     <div class="meat">
         <div><h2>Γυρος (Χοιρινός)</h2></div>
-        <div><h2>9,30€</h2><br></div>
+        <div><h2>10,00€</h2><br></div>
     </div>
     <div class="meat">
         <div><h2>Σουβλάκι Κοτόπουλο (3 τμχ)</h2></div>
-        <div><h2>9,00€</h2><br></div>
+        <div><h2>9,50€</h2><br></div>
     </div>
     <div class="meat">
         <div><h2>Σουβλάκι Χοιρινό (3 τμχ)</h2></div>
-        <div><h2>9,00€</h2><br></div>
+        <div><h2>9,50€</h2><br></div>
     </div>
     <div class="meat-special">
         <div><h2>Κοντοσούβλι Χοιρινό</h2></div>
-        <div><h2>10,00€</h2><br></div>
+        <div><h2>10,50€</h2><br></div>
     </div>
     <div class="meat-special">
         <div><h2>Κοντοσούβλι Κοτόπουλο</h2></div>
-        <div><h2>10,00€</h2><br></div>
+        <div><h2>10,50€</h2><br></div>
     </div>
     <div class="meat">
         <div><h2>Σουντζουκάκι Πολίτικο (10τμχ)</h2></div>
-        <div><h2>8,50€</h2><br></div>
+        <div><h2>9,00€</h2><br></div>
     </div>
     <div class="meat">
         <div><h2>Λουκάνικο (2 τμχ)</h2></div>
-        <div><h2>7,20€</h2><br></div>
+        <div><h2>7,50€</h2><br></div>
     </div>
     <div class="meat">
         <div><h2>Μπιφτέκι Γεμιστό (2 τμχ)</h2></div>
@@ -40,15 +40,15 @@ function buildPor(){
     </div>
     <div class="meat">
         <div><h2>Κεφτεδάκι Χειροποίητο (4 τμχ)</h2></div>
-        <div><h2>8,80€</h2><br><br></div>
+        <div><h2>9,20€</h2><br><br></div>
     </div>
     <div class="meat">
         <div><h2>Πανσέτα (7 τμχ)</h2></div>
-        <div><h2>8,50€</h2><br><br></div>
+        <div><h2>9,00€</h2><br><br></div>
     </div>
     <div class="meat">
         <div><h2>Φιλέτο κοτόπουλο</h2></div>
-        <div><h2>8,80€</h2><br><br></div>
+        <div><h2>9,20€</h2><br><br></div>
     </div>
     <div class="meat">
         <div><h3>Υλικά: Κρέας της επιλογής σας, ντομάτα, κρεμμύδι, σαλάτα της επιλογής σας και πατάτες τηγανιτές</h3><br></div>
@@ -69,47 +69,47 @@ function buildPor(){
             </div>
             <div class="meat">
                 <div><h2>Γύρος (Χοιρινός)</h2></div>
-                <div><h2>4,80€</h2><br></div>
+                <div><h2>5,00€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Σουβλάκι Κοτόπουλο</h2></div>
-                <div><h2>4,50€</h2><br></div>
+                <div><h2>4,70€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Σουβλάκι Χοιρινό</h2></div>
-                <div><h2>4,50€</h2><br></div>
+                <div><h2>4,70€</h2><br></div>
             </div>
             <div class="meat-special">
                 <div><h2>Κοντοσούβλι Χοιρινό</h2></div>
-                <div><h2>5,00€</h2><br></div>
+                <div><h2>5,20€</h2><br></div>
             </div>
             <div class="meat-special">
                 <div><h2>Κοντοσούβλι Κοτόπουλο</h2></div>
-                <div><h2>5,00€</h2><br></div>
+                <div><h2>5,20€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Σουντζουκάκι Πολίτικο</h2></div>
-                <div><h2>4,30€</h2><br></div>
+                <div><h2>4,50€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Λουκάνικο</h2></div>
-                <div><h2>4,20€</h2><br></div>
+                <div><h2>4,50€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Μπιφτέκι Χειροποίητο</h2></div>
-                <div><h2>4,50€</h2><br></div>
+                <div><h2>4,70€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Μπιφτέκι Γεμιστό</h2></div>
-                <div><h2>4,30€</h2><br></div>
+                <div><h2>4,50€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Πανσέτα</h2></div>
-                <div><h2>4,30€</h2><br></div>
+                <div><h2>4,50€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Φιλέτο Κοτόπουλο</h2></div>
-                <div><h2>4,50€</h2><br></div>
+                <div><h2>4,70€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>Για χορτοφαγική επιλογή ρωτήστε το προσωπικό</h2><br><br></div>
@@ -139,19 +139,19 @@ function buildPor(){
             </div>
             <div class="meat">
                 <div><h2>Χωριάτικη</h2></div>
-                <div><h2>7,30€</h2></div>
+                <div><h2>7,50€</h2></div>
             </div>
             <div class="meat">
                 <div><h2>Ντάκος</h2></div>
-                <div><h2>7,80€</h2></div>
+                <div><h2>8,00€</h2></div>
             </div>
             <div class="meat">
                 <div><h2>Αγγουροντομάτα</h2></div>
-                <div><h2>4,50€</h2><br></div>
+                <div><h2>5,00€</h2><br></div>
             </div>
             <div class="meat">
                 <div><h2>El Greco (Πράσινη Σαλάτα)</h2></div>
-                <div><h2>8,50€</h2><br></div>
+                <div><h2>8,70€</h2><br></div>
             </div>
             <div class="meat">
                 <div></div>
@@ -187,7 +187,7 @@ function buildPor(){
             </div>
             <div class="meat">
                 <div><h2>Πατάτες Τηγανιτές (Μερίδα)</h2></div>
-                <div><h2>3,50€</h2></div>
+                <div><h2>3,60€</h2></div>
             </div>
             <div class="meat">
                 <div><h2>Φέτα</h2></div>
@@ -195,7 +195,7 @@ function buildPor(){
             </div>
             <div class="meat">
                 <div><h2>Χαλούμι</h2></div>
-                <div><h2>4,00€</h2></div>
+                <div><h2>4,20€</h2></div>
             </div>
             <div class="meat">
                 <div><h2>Καυτερή Πιπεριά</h2></div>
