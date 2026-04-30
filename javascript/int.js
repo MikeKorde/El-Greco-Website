@@ -281,6 +281,10 @@ function buildDr(){
             <div><h2>4,00€</h2><br><br></div>
         </div> 
         <div class="meat">
+            <div><h2>Ouzo</h2></div>
+            <div><h2>7,00€</h2><br><br></div>
+        </div> 
+        <div class="meat">
                 <div><h3> &#9888; It is illegal to sell alcohol to anyone under the age of 18!.</h3></div>
             </div>
     </div>`;

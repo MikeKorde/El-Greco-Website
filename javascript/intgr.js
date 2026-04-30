@@ -281,6 +281,10 @@ function buildPor(){
                 <div><h2>4,00€</h2><br><br></div>
             </div> 
             <div class="meat">
+                <div><h2>Ούζο</h2></div>
+                <div><h2>7,00€</h2><br><br></div>
+            </div> 
+            <div class="meat">
                     <div><h3> &#9888; Απαγορεύεται η πώληση αλκοολούχων ποτών σε άτομα κάτω των 18 ετών.</h3></div>
                 </div>
         </div>`;
